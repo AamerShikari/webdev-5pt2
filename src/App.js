@@ -12,7 +12,7 @@ function App() {
   useEffect (() =>  {
     const getCity = async() => { 
       if (cityName === "") {return;}
-      let baseURL = "http://ctp-zip-api.herokuapp.com/city/";
+      let baseURL = "https://ctp-zip-api.herokuapp.com/city/";
       
       try { 
         let results = await axios.get(baseURL + cityName);
