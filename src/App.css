@@ -1,0 +1,34 @@
+.Top { 
+    background-color: black;
+    padding: 2.5%; 
+    color: red; 
+    text-align: center; 
+}
+
+.card {
+    border: 1px solid black;
+    margin: 1% 0%;
+    width: 10%;
+}
+
+.results {
+    padding-top: 1%;
+}
+
+.cardHeader {
+    background-color: red;
+    padding-left: 3%;
+
+}
+
+h1 { 
+    font-size: 50px;
+}
+
+label { 
+    font-size: 25px;
+}
+
+input { 
+    height: 25px;
+}
